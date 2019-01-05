@@ -9,4 +9,11 @@
     <string name="last_name">Last Name</string>
     <string name="f_name">First Name</string>
     <string name="l_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="u_name">Username</string>
+    <string name="name_of_college">Name of College</string>
+    <string name="_sign_password">Password</string>
+    <string name="logo_1">logo1</string>
+    <string name="business_owner">Business Owner</string>
+    <string name="client">Client</string>
 </resources>

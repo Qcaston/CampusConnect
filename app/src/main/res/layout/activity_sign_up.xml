@@ -11,14 +11,13 @@
     <ImageView
         android:id="@+id/banner"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:contentDescription="@string/logo_1"
-        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/campus_connect_logo1" />
+        app:srcCompat="@drawable/campus_connect" />
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -35,6 +34,7 @@
             android:id="@+id/linearLayout5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:minHeight="151dp">
 
             <EditText
@@ -114,15 +114,15 @@
             <EditText
                 android:id="@+id/password"
                 android:layout_width="0dp"
-                android:layout_height="41dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/text_border"
                 android:ems="10"
                 android:hint="@string/_sign_password"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
-                android:singleLine="true"
                 android:padding="15dp"
+                android:singleLine="true"
                 app:layout_constraintBottom_toTopOf="@+id/Signup"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -160,6 +160,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:text="@string/business_owner"
+                android:textColor="#fff"
                 android:padding="15dp"
                 app:layout_constraintBottom_toTopOf="@+id/Signup"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -178,6 +179,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:text="@string/client"
+                android:textColor="#fff"
                 android:padding="15dp"
                 app:layout_constraintBottom_toTopOf="@+id/Signup"
                 app:layout_constraintEnd_toEndOf="parent"

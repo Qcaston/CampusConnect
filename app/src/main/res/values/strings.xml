@@ -16,4 +16,10 @@
     <string name="logo_1">logo1</string>
     <string name="business_owner">Business Owner</string>
     <string name="client">Client</string>
+    <string name="title_activity_business_user">BusinessUser</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_notification">Notifications</string>
+    <string name="nav_message">Messages</string>
+    <string name="nav_settings">Settings</string>
 </resources>
